@@ -35,7 +35,7 @@ const Header = () => {
             <p className="header__p">logo</p>
             <nav>
               <NavLink to="/">
-                <li>Home</li>
+                <li onClick={() => setRegions(false)}>Home</li>
               </NavLink>
               <NavLink to="/regions">
                 <div className="header__regions">
@@ -78,13 +78,13 @@ const Header = () => {
                 </div>
               </NavLink>
               <NavLink to="/culture">
-                <li>Culture</li>
+                <li onClick={() => setRegions(false)}>Culture</li>
               </NavLink>
               <NavLink to="gallery">
-                <li>Gallery</li>
+                <li onClick={() => setRegions(false)}>Gallery</li>
               </NavLink>
               <NavLink to="routes">
-                <li>Routes</li>
+                <li onClick={() => setRegions(false)}>Routes</li>
               </NavLink>
             </nav>
             <div className="header__btns">
@@ -192,7 +192,7 @@ const Header = () => {
                     >
                       Regions
                     </li>
-                    <div
+                    {/* <div
                       className="header__regions__acard"
                       style={{
                         height: regions ? "" : "0",
@@ -229,7 +229,7 @@ const Header = () => {
                       <NavLink to="/regions/batken">
                         <p style={{ display: regions ? "" : "none" }}>Batken</p>
                       </NavLink>
-                    </div>
+                    </div> */}
                   </div>
                 </NavLink>
                 <NavLink to="/culture">
@@ -246,11 +246,13 @@ const Header = () => {
             </div>
           </div>
         </div>
+        <div className="headerBg"></div>
       </header>
       <div
         onClick={() => {
           setRegions(false);
           setLanguage(false);
+          setBurger(false);
         }}
         className="bg"
       ></div>
