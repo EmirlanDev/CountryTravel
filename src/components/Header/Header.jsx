@@ -65,7 +65,7 @@ const Header = () => {
                     </NavLink>
                     <NavLink to="/regions/jalalAbad">
                       <p style={{ display: regions ? "" : "none" }}>
-                        {/* Jalal-Abad */}
+                        Jalal-Abad
                       </p>
                     </NavLink>
                     <NavLink to="/regions/osh">
