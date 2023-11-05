@@ -1,0 +1,418 @@
+@import "./AreaAdap.scss";
+
+#area{
+    background:#fff;
+    padding: 100px 0;
+}
+
+
+
+
+.bigMap{
+    &__text{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        h1{
+            font-size: 18px;
+            color: #000;
+        }
+    }
+    &__input{
+        padding-top: 40px;
+        &--copy{
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            &__one{
+                padding: 11px 110px 11px 20px;
+                border-radius: 8px;
+                border: 2px solid #004A60;
+                background: #FCFCFD;
+                font-size: 20px;
+            }
+            &__two{
+                padding: 11px 65px 11px 25px;
+                border-radius: 8px;
+                border: 2px solid #004A60;
+                background: #FCFCFD;
+                font-size: 20px;
+            }
+            button{
+                background: #004A60;
+                border-radius: 8px;
+                padding: 11px 33px;
+                color: #fff;
+                font-size: 20px;
+
+            }
+        }
+    }
+    &__kg{
+        position: relative;
+        width: 1200px;
+        height: 590px;
+        top: 87px;
+
+
+//-------------------------------------------
+
+
+        &--talas{
+            position: absolute;
+            background: url(../../../../images/KG-TT.png) center center no-repeat;
+            background-size: cover;
+            top: 63.85px;
+            bottom: 412.47px;
+            right: 720.99px;
+            left: 174.92px;
+            transition: 0.5s;
+            img{
+                width: 100px;
+                height: 96.543px;
+                position: absolute;
+                left: 54px;
+                bottom: 70px;
+                transition: 0.5s ease-in-out;
+                opacity: 0;
+            }
+            p{
+                position: absolute;
+                font-size: 24px;
+                font-weight: 500;
+                color: #ffffff;
+                opacity: 0;
+                transition: opacity 0.5s ease;
+                left: 74px;
+                bottom:0 ;
+                top: 55px;
+                right: 0;
+            }
+
+            &:hover{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+
+//-------------------------------------------
+
+
+        &--chui{
+            position: absolute;
+            background: url(../../../../images/KG-CC.png) no-repeat;
+            background-size: cover;
+            top: 0.62px;
+            bottom: 382.17px;
+            right: 333.32px;
+            left: 413.25px;
+            transition: 0.5s;
+            img{
+                width: 100px;
+                height: 96.543px;
+                position: absolute;
+                left: 70px;
+                bottom: 120px;
+                transition: 0.5s ease-in-out;
+                opacity: 0;
+            }
+            p{
+                position: absolute;
+                font-size: 24px;
+                font-weight: 500;
+                color: #ffffff;
+                opacity: 0;
+                transition: opacity 0.5s ease;
+                left: 90px;
+                bottom:0 ;
+                top: 100px;
+                right: 0;
+            }
+
+            &:hover{
+            transition: 0.5s ease-in-out;
+            background-image: url('../../../../images/chuiblur.png');
+            z-index: 1;
+            img{
+                opacity: 1;
+            }
+            p{
+                opacity: 1;
+            }     
+        }
+    }
+
+
+
+
+//-------------------------------------------
+
+
+        &--coll{
+            position: absolute;
+            background: url(../../../../images/KG-YY.png) no-repeat;
+            background-size: cover;
+            top: 48.36px;
+            bottom: 280.32px;
+            right: 0.42px;
+            left: 694.22px;
+            transition: 0.5s;
+            img{
+                width: 100px;
+                height: 96.543px;
+                position: absolute;
+                left: 207px;
+                bottom: 140px;
+                transition: 0.5s ease-in-out;
+                opacity: 0;
+            }
+            p{
+                position: absolute;
+                font-size: 24px;
+                font-weight: 500;
+                color: #ffffff;
+                opacity: 0;
+                transition: opacity 0.5s ease;
+                left: 210px;
+                bottom:0 ;
+                top: 120px;
+                right: 0;
+            }
+
+            &:hover{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/kylBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+
+//-------------------------------------------
+
+
+        &--jalal{
+            position: absolute;
+            background: url(../../../../images/KG-JJ.png )no-repeat;
+            background-size: cover;
+            top: 153.36px;
+            bottom: 231.3px;
+            right: 604.16px;
+            left: 100.28px;
+            transition: 0.5s;
+            img{
+                width: 100px;
+                height: 96.543px;
+                position: absolute;
+                left: 240px;
+                bottom: 115px;
+                transition: 0.5s ease-in-out;
+                opacity: 0;
+            }
+            p{
+                position: absolute;
+                font-size: 24px;
+                font-weight: 500;
+                color: #ffffff;
+                opacity: 0;
+                transition: opacity 0.5s ease;
+                left: 230px;
+                bottom:0 ;
+                top: 98px;
+                right: 0;
+            }
+
+
+            &:hover{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/jalalBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+
+
+//-------------------------------------------
+
+
+        
+        &--naryn{
+            position: absolute;
+            background: url(../../../../images/KG-NN.png )no-repeat;
+            background-size: cover;
+            top: 119px;
+            bottom: 157.51px;
+            right: 224.25px;
+            left: 485.59px;
+            transition: 0.5s;
+            img{
+                width: 100px;
+                height: 96.543px;
+                position: absolute;
+                left: 150px;
+                bottom: 125px;
+                transition: 0.5s ease-in-out;
+                opacity: 0;
+            }
+            p{
+                position: absolute;
+                font-size: 24px;
+                font-weight: 500;
+                color: #ffffff;
+                opacity: 0;
+                transition: opacity 0.5s ease;
+                left: 160px;
+                bottom:0 ;
+                top: 190px;
+                right: 0;
+            }
+
+
+            &:hover{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/narynBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }      
+            }
+        }
+
+
+
+//-------------------------------------------
+
+
+
+        &--osh{
+            position: absolute;
+            background: url(../../../../images/KG-OO.png )no-repeat;
+            background-size: cover;
+            top: 309.7px;
+            bottom: 0.4px;
+            right: 586.23px;
+            left: 245.03px;
+            transition: 0.5s;
+            img{
+                width: 100px;
+                height: 96.543px;
+                position: absolute;
+                left: 115px;
+                bottom: 140px;
+                transition: 0.5s ease-in-out;
+                opacity: 0;
+            }
+            p{
+                position: absolute;
+                font-size: 45px;
+                font-weight: 500;
+                color: #ffffff;
+                opacity: 0;
+                transition: opacity 0.5s ease;
+                left: 140px;
+                bottom:0 ;
+                top: 160px;
+                right: 0;
+            }
+
+            &:hover{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/oshBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }                
+            }
+        }
+
+
+//---------------------------------------
+
+        &--batken{
+            position: absolute;
+            background: url(../../../../images/KG-BB.png) no-repeat;
+            background-size: cover;
+            top: 424.28px;
+            bottom: 29.8px;
+            right: 842.89px;
+            left: 0.39px;
+            transition: 0.5s;
+            img{
+                width: 100px;
+                height: 96.543px;
+                position: absolute;
+                left: 109px;
+                bottom: 40.46px;
+                transition: 0.5s ease-in-out;
+                opacity: 0;
+            }
+            p{
+                position: absolute;
+                font-size: 24px;
+                font-weight: 500;
+                color: #ffffff;
+                opacity: 0;
+                transition: opacity 0.5s ease;
+                left: 24px;
+                bottom:0 ;
+                top: 65px;
+                right: 0;
+            }
+            &:hover{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/batcen.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }
+            }
+          
+        }
+
+    }
+}
+
+
+.boll{
+    width: 6px;
+    height: 6px;
+    background: #000;;
+    border-radius: 50%;
+}
+
+
+
+// background: url('../../../../images/batkenBoll.png');
+
+
