@@ -107,10 +107,10 @@ const Header = () => {
               <NavLink to="/culture">
                 <li onClick={() => setRegions(false)}>Culture</li>
               </NavLink>
-              <NavLink to="gallery">
+              <NavLink to="/gallery">
                 <li onClick={() => setRegions(false)}>Gallery</li>
               </NavLink>
-              <NavLink to="routes">
+              <NavLink to="/routes">
                 <li onClick={() => setRegions(false)}>Routes</li>
               </NavLink>
             </nav>
@@ -176,7 +176,9 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-              <button>Sign up</button>
+              <NavLink to="/signUp">
+                <button>Sign up</button>
+              </NavLink>
               <div
                 onClick={() => setBurger(!burger)}
                 className="header__btns__burger"
