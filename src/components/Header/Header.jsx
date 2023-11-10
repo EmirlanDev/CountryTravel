@@ -46,6 +46,7 @@ const Header = () => {
                   >
                     <NavLink to="/regions/chui">
                       <p
+                        onClick={() => setRegions(false)}
                         className="header__regions__acard__firstP"
                         style={{ display: regions ? "" : "none" }}
                       >
@@ -53,26 +54,52 @@ const Header = () => {
                       </p>
                     </NavLink>
                     <NavLink to="/regions/talas">
-                      <p style={{ display: regions ? "" : "none" }}>Talas</p>
+                      <p
+                        onClick={() => setRegions(false)}
+                        style={{ display: regions ? "" : "none" }}
+                      >
+                        Talas
+                      </p>
                     </NavLink>
                     <NavLink to="/regions/issykKul">
-                      <p style={{ display: regions ? "" : "none" }}>
+                      <p
+                        onClick={() => setRegions(false)}
+                        style={{ display: regions ? "" : "none" }}
+                      >
                         Issyk-Kul
                       </p>
                     </NavLink>
                     <NavLink to="/regions/naryn">
-                      <p style={{ display: regions ? "" : "none" }}>Naryn</p>
+                      <p
+                        onClick={() => setRegions(false)}
+                        style={{ display: regions ? "" : "none" }}
+                      >
+                        Naryn
+                      </p>
                     </NavLink>
                     <NavLink to="/regions/jalalAbad">
-                      <p style={{ display: regions ? "" : "none" }}>
+                      <p
+                        onClick={() => setRegions(false)}
+                        style={{ display: regions ? "" : "none" }}
+                      >
                         Jalal-Abad
                       </p>
                     </NavLink>
                     <NavLink to="/regions/osh">
-                      <p style={{ display: regions ? "" : "none" }}>Osh</p>
+                      <p
+                        onClick={() => setRegions(false)}
+                        style={{ display: regions ? "" : "none" }}
+                      >
+                        Osh
+                      </p>
                     </NavLink>
                     <NavLink to="/regions/batken">
-                      <p style={{ display: regions ? "" : "none" }}>Batken</p>
+                      <p
+                        onClick={() => setRegions(false)}
+                        style={{ display: regions ? "" : "none" }}
+                      >
+                        Batken
+                      </p>
                     </NavLink>
                   </div>
                 </div>
