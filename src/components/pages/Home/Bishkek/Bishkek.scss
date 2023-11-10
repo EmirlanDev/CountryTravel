@@ -1,0 +1,165 @@
+#bishkek {
+  h2 {
+    color: #004a60;
+    font-family: Abril Fatface;
+    font-size: 64px;
+    font-weight: 400;
+    margin: 100px 0px -90px 412px;
+    display: none;
+  }
+  .bishkek {
+    display: flex;
+    margin: 0 0 100px;
+    &__img {
+      background: url(".././../.././../images/bishkek.png") no-repeat center;
+      width: 1746px;
+      height: 304.941px;
+      img {
+        display: none;
+      }
+    }
+    &__text {
+      margin-left: 24px;
+      h1 {
+        color: #004a60;
+        font-family: Abril Fatface;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 32px;
+      }
+      p {
+        color: #242424;
+        font-family: Frank Ruhl Libre;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 1.2px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #bishkek {
+    .bishkek {
+      &__img {
+        width: 2321px;
+        height: 374.941px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #bishkek {
+    .bishkek {
+      &__img {
+        width: 3095px;
+        height: 422.141px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #bishkek {
+    h2 {
+      margin: 100px 0px -90px 398px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #bishkek {
+    h2 {
+      margin: 32px 0px -90px 0px;
+      font-size: 50px;
+      display: flex;
+    }
+    .bishkek {
+      display: block;
+      &__img {
+        background: none;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        img {
+          display: flex;
+          width: 100%;
+          margin-top: 100px;
+        }
+      }
+      &__text {
+        margin: 0;
+        h1 {
+          display: none;
+        }
+        p {
+          margin-top: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #bishkek {
+    .bishkek {
+      &__text {
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 452px) {
+  #bishkek {
+    h2 {
+      font-size: 24px;
+      font-weight: 400;
+    }
+    .bishkek {
+      &__text {
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 106%;
+          letter-spacing: 0.8px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #bishkek {
+    .bishkek {
+      &__text {
+        p {
+          letter-spacing: 0;
+        }
+      }
+    }
+  }
+}
+
+// @media (max-width: 1200px) {
+// }
+// @media (max-width: 1024px) {
+// }
+// @media (max-width: 992px) {
+// }
+// @media (max-width: 768px) {
+// }
+// @media (max-width: 576px) {
+// }
+// @media (max-width: 451px) {
+// }
+// @media (max-width: 400px) {
+// }
+// @media (max-width: 376px) {
+// }
