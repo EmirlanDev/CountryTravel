@@ -1,0 +1,840 @@
+@media (max-width: 1200px){
+
+    .bigMap{
+        &__text{
+            h1{
+                font-size: 16px !important;
+            }
+        }
+        &__input{
+            &--copy{
+                &__one{
+                    padding: 9px 100px 9px 16px !important;
+                    font-size: 18px !important;
+                }
+                &__two{
+                    padding: 9px 60px 9px 22px !important;
+                    font-size: 18px !important;
+                }
+                button{
+                    padding: 9px 25px !important;
+                    border-radius: 8px !important;
+                }
+            }
+        }
+        &__kg{
+          zoom: 80%;
+    }
+}
+
+.boll{
+    width: 5px !important;
+    height: 5px !important;
+}
+}
+@media (max-width: 1024px){
+    
+
+    .bigMap{
+        &__text{
+            h1{
+                font-size: 16px !important;
+            }
+        }
+        &__input{
+            &--copy{
+                &__one{
+                    padding: 6px 90px 6px 14px !important;
+                    font-size: 16px !important;
+                }
+                &__two{
+                    padding: 6px 55px 6px 19px !important;
+                    font-size: 16px !important;
+                }
+                button{
+                    padding: 6px 20px !important;
+                    font-size: 16px !important;
+                    border-radius: 6px !important;
+                }
+            }
+        }
+        &__kg{
+          zoom: 68%;
+    }
+}
+
+.boll{
+    width: 5px !important;
+    height: 5px !important;
+
+}
+
+
+}
+@media (max-width: 992px){
+    
+    
+    .bigMap{
+        &__text{
+            h1{
+                font-size: 16px !important;
+            }
+        }
+        &__input{
+            &--copy{
+                &__one{
+                    padding: 5px 80px 5px 13px !important;
+                    font-size: 15px !important;
+                }
+                &__two{
+                    padding: 5px 52px 5px 16px !important;
+                    font-size: 15px !important;
+                }
+                button{
+                    padding: 5px 18px !important;
+                    font-size: 15px !important;
+                    border-radius: 6px !important;
+                }
+            }
+        }
+        &__kg{
+          zoom: 63%;
+    }
+}
+
+.boll{
+    width: 5px !important;
+    height: 5px !important;
+
+}
+
+
+
+
+}
+@media (max-width: 834px){
+
+
+    .bigMap{
+        &__text{
+            h1{
+                font-size: 16px !important;
+            }
+        }
+        &__input{
+            &--copy{
+                &__one{
+                    padding: 4px 70px 4px 12px !important;
+                    font-size: 14px !important;
+                }
+                &__two{
+                    padding: 4px 49px 4px 15px !important;
+                    font-size: 14px !important;
+                }
+                button{
+                    padding: 5px 18px !important;
+                    font-size: 14px !important;
+                    border-radius: 6px !important;
+                }
+            }
+        }
+        &__kg{
+          zoom: 58%;
+    }
+}
+
+.boll{
+    width: 4px !important;
+    height: 4px !important;
+
+}
+
+    
+}
+@media (max-width: 768px){
+
+
+    .bigMap{
+        &__text{
+            h1{
+                font-size: 16px !important;
+            }
+        }
+        &__input{
+            &--copy{
+                &__one{
+                    padding: 3px 60px 3px 11px !important;
+                    font-size: 13px !important;
+                }
+                &__two{
+                    padding: 3px 46px 3px 14px !important;
+                    font-size: 13px !important;
+                }
+                button{
+                    padding: 4px 16px !important;
+                    font-size: 13px !important;
+                    border-radius: 5px !important;
+                }
+            }
+        }
+        &__kg{
+          zoom: 50%;
+    }
+}
+
+.boll{
+    width: 3px !important;
+    height: 3px !important;
+
+}
+
+
+    
+}
+@media (max-width: 578px){
+
+
+
+    .bigMap{
+        &__text{
+            h1{
+                font-size: 16px !important;
+            }
+        }
+        &__input{
+            &--copy{
+                &__one{
+                    padding: 3px 50px 3px 11px !important;
+                    font-size: 13px !important;
+                }
+                &__two{
+                    padding: 3px 30px 3px 14px !important;
+                    font-size: 13px !important;
+                }
+                button{
+                    padding: 4px 15px !important;
+                    font-size: 13px !important;
+                    border-radius: 3px !important;
+                }
+            }
+        }
+        &__kg{
+          zoom: 42%;
+
+//----------TALAS------
+
+        &--talas{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+//-----------CHUI------
+
+        &--chui{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+//--------------------------
+
+
+        &--coll{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+//------------------------
+
+        &--jalal{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+//------------------------------
+
+
+        &--naryn{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+//-------------------------------
+
+        &--osh{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+
+//--------------------------------
+
+
+        &--batken{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+        
+    }
+}
+
+.boll{
+    width: 3px !important;
+    height: 3px !important;
+
+}
+
+
+    
+}
+@media (max-width: 451px){
+    
+
+
+
+    .bigMap{
+        &__text{
+            h1{
+                font-size: 16px !important;
+            }
+        }
+        &__input{
+            &--copy{
+                &__one{
+                    padding: 3px 40px 3px 11px !important;
+                    font-size: 13px !important;
+                }
+                &__two{
+                    padding: 3px 25px 3px 14px !important;
+                    font-size: 13px !important;
+                }
+                button{
+                    padding: 4px 13px !important;
+                    font-size: 13px !important;
+                    border-radius: 3px !important;
+                }
+            }
+        }
+        &__kg{
+          zoom: 33%;
+
+//----------TALAS------
+
+        &--talas{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+//-----------CHUI------
+
+        &--chui{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+//--------------------------
+
+
+        &--coll{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+//------------------------
+
+        &--jalal{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+//------------------------------
+
+
+        &--naryn{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+//-------------------------------
+
+        &--osh{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+
+//--------------------------------
+
+
+        &--batken{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+        
+    }
+}
+
+.boll{
+    width: 3px !important;
+    height: 3px !important;
+
+}
+
+}
+@media (max-width: 400px){
+
+    
+    .bigMap{
+        &__text{
+            h1{
+                font-size: 16px !important;
+            }
+        }
+        &__input{
+            &--copy{
+                &__one{
+                    padding: 3px 0 3px 11px !important;
+                    font-size: 11px !important;
+                }
+                &__two{
+                    padding: 3px 0 3px 14px !important;
+                    font-size: 11px !important;
+                }
+                button{
+                    padding: 4px 7px !important;
+                    font-size: 11px !important;
+                    border-radius: 6px !important;
+                }
+            }
+        }
+        &__kg{
+          zoom: 28%;
+
+//----------TALAS------
+
+        &--talas{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+//-----------CHUI------
+
+        &--chui{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+//--------------------------
+
+
+        &--coll{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+//------------------------
+
+        &--jalal{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+//------------------------------
+
+
+        &--naryn{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+//-------------------------------
+
+        &--osh{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+
+//--------------------------------
+
+
+        &--batken{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+        
+    }
+}
+
+.boll{
+    width: 5px !important;
+    height: 5px !important;
+
+}
+    
+}
+@media (max-width: 376px){
+
+
+
+        
+    .bigMap{
+        &__text{
+            h1{
+                font-size: 16px !important;
+            }
+        }
+        &__input{
+            &--copy{
+                &__one{
+                    padding: 3px 0 3px 2px !important;
+                    font-size: 11px !important;
+                }
+                &__two{
+                    padding: 3px 0 3px 2px !important;
+                    font-size: 11px !important;
+                }
+                button{
+                    padding: 4px 4px !important;
+                    font-size: 11px !important;
+                    border-radius: 6px !important;
+                }
+            }
+        }
+        &__kg{
+          zoom: 28%;
+
+//----------TALAS------
+
+        &--talas{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+//-----------CHUI------
+
+        &--chui{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+//--------------------------
+
+
+        &--coll{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+//------------------------
+
+        &--jalal{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+//------------------------------
+
+
+        &--naryn{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+//-------------------------------
+
+        &--osh{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+
+
+//--------------------------------
+
+
+        &--batken{
+            &:focus{
+                transition: 0.5s ease-in-out;
+                background-image: url('../../../../images/talasBlur.png');
+                z-index: 1;
+                img{
+                    opacity: 1;
+                }
+                p{
+                    opacity: 1;
+                }     
+            }
+        }
+
+        
+    }
+}
+
+.boll{
+    width: 4px !important;
+    height: 4px !important;
+
+}
+    
+}
