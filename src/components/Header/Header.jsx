@@ -35,7 +35,7 @@ const Header = () => {
             <p className="header__p">logo</p>
             <nav>
               <NavLink to="/">
-                <li>Home</li>
+                <li onClick={() => setRegions(false)}>Home</li>
               </NavLink>
               <NavLink to="/regions">
                 <div className="header__regions">
@@ -46,6 +46,7 @@ const Header = () => {
                   >
                     <NavLink to="/regions/chui">
                       <p
+                        onClick={() => setRegions(false)}
                         className="header__regions__acard__firstP"
                         style={{ display: regions ? "" : "none" }}
                       >
@@ -53,38 +54,64 @@ const Header = () => {
                       </p>
                     </NavLink>
                     <NavLink to="/regions/talas">
-                      <p style={{ display: regions ? "" : "none" }}>Talas</p>
+                      <p
+                        onClick={() => setRegions(false)}
+                        style={{ display: regions ? "" : "none" }}
+                      >
+                        Talas
+                      </p>
                     </NavLink>
                     <NavLink to="/regions/issykKul">
-                      <p style={{ display: regions ? "" : "none" }}>
+                      <p
+                        onClick={() => setRegions(false)}
+                        style={{ display: regions ? "" : "none" }}
+                      >
                         Issyk-Kul
                       </p>
                     </NavLink>
                     <NavLink to="/regions/naryn">
-                      <p style={{ display: regions ? "" : "none" }}>Naryn</p>
+                      <p
+                        onClick={() => setRegions(false)}
+                        style={{ display: regions ? "" : "none" }}
+                      >
+                        Naryn
+                      </p>
                     </NavLink>
                     <NavLink to="/regions/jalalAbad">
-                      <p style={{ display: regions ? "" : "none" }}>
+                      <p
+                        onClick={() => setRegions(false)}
+                        style={{ display: regions ? "" : "none" }}
+                      >
                         Jalal-Abad
                       </p>
                     </NavLink>
                     <NavLink to="/regions/osh">
-                      <p style={{ display: regions ? "" : "none" }}>Osh</p>
+                      <p
+                        onClick={() => setRegions(false)}
+                        style={{ display: regions ? "" : "none" }}
+                      >
+                        Osh
+                      </p>
                     </NavLink>
                     <NavLink to="/regions/batken">
-                      <p style={{ display: regions ? "" : "none" }}>Batken</p>
+                      <p
+                        onClick={() => setRegions(false)}
+                        style={{ display: regions ? "" : "none" }}
+                      >
+                        Batken
+                      </p>
                     </NavLink>
                   </div>
                 </div>
               </NavLink>
               <NavLink to="/culture">
-                <li>Culture</li>
+                <li onClick={() => setRegions(false)}>Culture</li>
               </NavLink>
-              <NavLink to="gallery">
-                <li>Gallery</li>
+              <NavLink to="/gallery">
+                <li onClick={() => setRegions(false)}>Gallery</li>
               </NavLink>
-              <NavLink to="routes">
-                <li>Routes</li>
+              <NavLink to="/routes">
+                <li onClick={() => setRegions(false)}>Routes</li>
               </NavLink>
             </nav>
             <div className="header__btns">
@@ -149,7 +176,9 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-              <button>Sign up</button>
+              <NavLink to="/signUp">
+                <button>Sign up</button>
+              </NavLink>
               <div
                 onClick={() => setBurger(!burger)}
                 className="header__btns__burger"
@@ -192,7 +221,7 @@ const Header = () => {
                     >
                       Regions
                     </li>
-                    <div
+                    {/* <div
                       className="header__regions__acard"
                       style={{
                         height: regions ? "" : "0",
@@ -229,7 +258,7 @@ const Header = () => {
                       <NavLink to="/regions/batken">
                         <p style={{ display: regions ? "" : "none" }}>Batken</p>
                       </NavLink>
-                    </div>
+                    </div> */}
                   </div>
                 </NavLink>
                 <NavLink to="/culture">
@@ -246,11 +275,13 @@ const Header = () => {
             </div>
           </div>
         </div>
+        <div className="headerBg"></div>
       </header>
       <div
         onClick={() => {
           setRegions(false);
           setLanguage(false);
+          setBurger(false);
         }}
         className="bg"
       ></div>

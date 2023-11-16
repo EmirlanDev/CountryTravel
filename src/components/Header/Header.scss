@@ -1,6 +1,19 @@
 #header {
   background: url("./../../images/headerBg.png") center;
   z-index: 99;
+  position: sticky;
+  inset: 0;
+  z-index: 20;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(7.5px);
+  .headerBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("./../../images/headerBg.png") center;
+    top: 0;
+    z-index: -50;
+  }
   .header {
     display: flex;
     justify-content: flex-end;
@@ -218,6 +231,30 @@
         }
         &__burger {
           display: flex;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    .header {
+      height: 56px;
+      &__p {
+        font-size: 17px;
+        font-weight: 600;
+      }
+      &__btns {
+        button {
+          width: 85px;
+          height: 30px;
+          font-size: 16px;
+          font-weight: 700;
+        }
+        &__menu {
+          top: 56px;
+          right: -10px;
         }
       }
     }
